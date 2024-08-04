@@ -24,7 +24,7 @@ const App = () => {
   }, [])
   return (
     <Container>
-      <h1>Learning Websockets</h1>
+      <h1>MyChat App</h1>
       {!isConnected ? (
         <Button onClick={() => socket.connect()}>Connect to Chatroom</Button>
       ) : (
